@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { EventHeaderComponent } from './event-header/event-header.component';
+import { EventFooterComponent } from './event-footer/event-footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventHeaderComponent,
+    EventFooterComponent
   ],
   imports: [
     BrowserModule,
