@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { EventHeaderComponent } from './event-header/event-header.component';
 import { EventFooterComponent } from './event-footer/event-footer.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +16,7 @@ import { EventFooterComponent } from './event-footer/event-footer.component';
     EventFooterComponent
   ],
   imports: [
+    BrowserAnimationsModule,        
     BrowserModule,
     FormsModule,
     HttpModule
