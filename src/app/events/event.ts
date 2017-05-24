@@ -1,5 +1,5 @@
-import { Address } from './events/address';
-import { Provider } from './events/provider;
+import { Address } from './address';
+import { Provider } from './provider';
 
 export class Event{
     id : number;

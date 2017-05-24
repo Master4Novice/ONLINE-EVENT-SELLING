@@ -1,5 +1,5 @@
-import { Address } from './events/address';
-import { IdCard } from './events/idCard';
+import { Address } from './address';
+import { IdCard } from './idCard';
 
 export class Provider{
     id: number;
@@ -7,8 +7,8 @@ export class Provider{
     mName: string;
     lName: string;
     sex : string;
-    idCard[] : IdCard;
-    address[]: Address;
+    idCard: IdCard;
+    address: Address;
     landLNumber : number;
     mobileNumber : number;
     emailId : string;
