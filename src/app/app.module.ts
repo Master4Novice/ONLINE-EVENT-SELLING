@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { EventHeaderComponent } from './event-header/event-header.component';
@@ -14,6 +15,9 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginRegistrationComponent } from './login-registration/login-registration.component';
 import { DashboardProviderComponent } from './dashboard-provider/dashboard-provider.component';
 import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import 'hammerjs';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,8 @@ import { DashboardUserComponent } from './dashboard-user/dashboard-user.componen
     BrowserAnimationsModule,        
     BrowserModule,
     FormsModule,
+    NgbModule.forRoot(),
+    MaterialModule,
     HttpModule
   ],
   providers: [],
