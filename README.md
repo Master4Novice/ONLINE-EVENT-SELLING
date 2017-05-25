@@ -2,7 +2,7 @@
 These day everything becoming online. There are many events that is organized by the individuals with lot of effort and wastage of money and time. We are going to provide a better solution for organizing small to large events. This is a common place for buying and selling an event like a product with easy and comfort.
 
 # Prerequisites
-Both the CLI and generated project have dependencies that require Node 6.9.0 or higher, together with NPM 3 or higher.
+Both the CLI and generated project have dependencies that require Node 6.9.0 or higher, together with NPM 3 or higher. Refer https://nodejs.org/en/ for node installation
 
 # Installation
 BEFORE YOU INSTALL: please read the prerequisites
