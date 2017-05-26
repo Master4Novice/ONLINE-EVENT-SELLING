@@ -18,6 +18,22 @@ import { DashboardUserComponent } from './dashboard-user/dashboard-user.componen
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import 'hammerjs';
+import { PostsComponent } from './posts/posts.component';
+import { RouterModule } from '@angular/router';
+
+import { PostsService } from './posts.service';
+
+const ROUTES = [
+                {
+                  path: '',
+                  redirectTo: 'posts',
+                  pathMatch: 'full'
+                },
+                {
+                  path: 'posts',
+                  component: PostsComponent
+                }
+];
 
 @NgModule({
   declarations: [
@@ -29,7 +45,8 @@ import 'hammerjs';
     ContactComponent,
     LoginRegistrationComponent,
     DashboardProviderComponent,
-    DashboardUserComponent
+    DashboardUserComponent,
+    PostsComponent
   ],
   imports: [
     BrowserAnimationsModule,        
@@ -37,9 +54,10 @@ import 'hammerjs';
     FormsModule,
     NgbModule.forRoot(),
     MaterialModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [PostsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

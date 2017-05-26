@@ -11,6 +11,7 @@ BEFORE YOU INSTALL: please read the prerequisites
 3. You will see the folder ONLINE-EVENT-SELLING.
 4. cd ONLINE-EVENT-SELLING.
 5. npm install
-6. ng serve --open
+6. ng build
+6. node server.js
 
 
