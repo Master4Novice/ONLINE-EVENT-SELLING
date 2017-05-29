@@ -18,6 +18,7 @@ import { DashboardUserComponent } from './dashboard-user/dashboard-user.componen
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import 'hammerjs';
+
 import { PostsComponent } from './posts/posts.component';
 import { RouterModule } from '@angular/router';
 
