@@ -2,12 +2,12 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
-html {
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(./assets/dream_one_world.jpg); 
+  background-size: cover;
   position: relative;
   min-height: 100%;
-}
-body {
-  padding-top: 5rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
